@@ -1,0 +1,15 @@
+[package]
+name = "zed_tflint"
+version = "0.0.1"
+edition = "2021"
+public = false
+license = "Apache-2.0"
+description = "Support for TFLint"
+repository = "https://github.com/mgrubb/zed-tflint"
+
+[lib]
+path = "src/tflint.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.1.0"
