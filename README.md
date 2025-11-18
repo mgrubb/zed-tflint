@@ -17,6 +17,7 @@ A [Zed](https://zed.dev/) extension for running tflint on your Terraform codebas
           "--langserver"
         ]
       }
+    }
   }
 }
 ```
